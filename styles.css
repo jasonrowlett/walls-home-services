@@ -19,13 +19,13 @@ header {
 }
 
 .banner img {
-  max-height: 250px;     /* Tweak as needed */
-  width: auto;
-  height: auto;
-  object-fit: contain;
+  width: 100%;                /* Fill entire width */
+  height: auto;               /* Maintain aspect ratio */
+  object-fit: cover;          /* Adjust for best visual */
   display: block;
-  margin: 0 auto;
+  margin: 0;
 }
+
 
 @media (max-width: 768px) {
   .banner img {
