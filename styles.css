@@ -17,7 +17,7 @@ header {
 }
 
 .banner img {
-  max-height: 180px;     /* Tweak as needed */
+  max-height: 250px;     /* Tweak as needed */
   width: auto;
   height: auto;
   object-fit: contain;
