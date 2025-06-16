@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');  /* [NEW] */
+
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
@@ -37,12 +39,6 @@ header {
   margin: 1rem auto 0.5rem;
 }
 
-.tagline {
-  font-weight: 300;
-  font-size: 1.2rem;
-  margin-top: 0.5rem;
-}
-
 main {
   padding: 2rem 1rem;
 }
@@ -53,9 +49,20 @@ main {
 }
 
 .contact h2, .gallery h2 {
-  color: #4fc3f7;
-  font-size: 1.8rem;
+  font-family: 'Montserrat', sans-serif;  /* [UPDATED] */
+  font-weight: 800;                       /* [UPDATED] */
+  text-transform: uppercase;              /* [NEW] */
+  color: #ffffff;                         /* [UPDATED] */
+  font-size: 2rem;                        /* [UPDATED] */
   margin-bottom: 1rem;
+  border-bottom: 4px solid #f8e71c;       /* [NEW] Yellow underline */
+  display: inline-block;                  /* [NEW] Centering effect */
+  padding-bottom: 0.5rem;                 /* [NEW] */
+}
+
+.contact h2:hover, .gallery h2:hover {
+  color: #f8e71c;                          /* [NEW] Subtle hover effect */
+  cursor: default;
 }
 
 .contact p, .contact a {
