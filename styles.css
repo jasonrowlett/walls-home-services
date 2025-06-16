@@ -53,7 +53,7 @@ main {
   margin-bottom: 3rem;
   text-align: center;
   background-color: #000000; /* [NEW] match banner background */
-  padding: 2rem 1rem;         /* [NEW] breathing room */
+  padding: 5rem 1rem 4rem;         /* [NEW] breathing room */
 }
 
 .contact p, .contact a {
