@@ -17,7 +17,7 @@ header {
 }
 
 .banner img {
-  max-height: 140px;       /* adjust up/down as needed */
+  max-height: 180px;     /* Tweak as needed */
   width: auto;
   height: auto;
   object-fit: contain;
@@ -27,7 +27,7 @@ header {
 
 @media (max-width: 768px) {
   .banner img {
-    max-height: 100px;
+    max-height: 120px;
   }
 }
 
