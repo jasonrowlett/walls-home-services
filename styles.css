@@ -12,14 +12,14 @@ header {
 }
 
 .banner {
-  height: auto;
   text-align: center;
-  padding: 1rem 0;
+  padding: 2rem 0;
 }
 
 .banner img {
-  max-height: 120px;
+  max-height: 140px;       /* adjust up/down as needed */
   width: auto;
+  height: auto;
   object-fit: contain;
   display: block;
   margin: 0 auto;
@@ -27,7 +27,7 @@ header {
 
 @media (max-width: 768px) {
   .banner img {
-    max-height: 80px;
+    max-height: 100px;
   }
 }
 
