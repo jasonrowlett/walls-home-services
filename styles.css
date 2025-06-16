@@ -12,15 +12,23 @@ header {
 }
 
 .banner {
-  height: 120px;
-  overflow: hidden;
+  height: auto;
+  text-align: center;
+  padding: 1rem 0;
 }
+
 .banner img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-  object-position: center center;
+  max-height: 120px;
+  width: auto;
+  object-fit: contain;
   display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+  .banner img {
+    max-height: 80px;
+  }
 }
 
 .logo {
