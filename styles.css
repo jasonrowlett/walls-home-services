@@ -26,6 +26,11 @@ header {
   margin: 0;
 }
 
+.section-divider {
+  border-top: 1px solid #444;     /* Matches footer line color */
+  width: 100%;
+  margin: 4rem 0 2rem;            /* Equal spacing from above and below */
+}
 
 @media (max-width: 768px) {
   .banner img {
