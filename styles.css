@@ -19,9 +19,10 @@ header {
 }
 
 .banner img {
-  width: 100%;                /* Fill entire width */
-  height: auto;               /* Maintain aspect ratio */
-  object-fit: cover;          /* Adjust for best visual */
+  width: 100%;
+  height: 300px;             /* Set desired visible height */
+  object-fit: cover;         /* Crop instead of squish */
+  object-position: top;      /* Focus on top of the image */
   display: block;
   margin: 0;
 }
