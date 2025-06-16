@@ -46,6 +46,16 @@ main {
 .contact, .gallery {
   margin-bottom: 3rem;
   text-align: center;
+  background-color: #000000; /* [NEW] match banner background */
+  padding: 2rem 1rem;         /* [NEW] breathing room */
+}
+
+.contact p, .contact a {
+  font-family: 'Montserrat', sans-serif; /* [NEW] consistent font */
+  font-size: 2rem;                        /* [UPDATED] double the size */
+  color: #ffffff;
+  text-decoration: none;
+  margin: 1rem 0;
 }
 
 .contact h2, .gallery h2 {
@@ -65,12 +75,6 @@ main {
   cursor: default;
 }
 
-.contact p, .contact a {
-  font-size: 1rem;
-  color: #ffffff;
-  text-decoration: none;
-  margin: 0.25rem 0;
-}
 
 .gallery-grid {
   display: grid;
