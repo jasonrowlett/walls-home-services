@@ -3,7 +3,7 @@
 body {
   margin: 0;
   font-family: 'Poppins', sans-serif;
-  background-color: #1e1e1e;
+  background-color: #000000; /* Updated to match banner */
   color: #ffffff;
 }
 
@@ -52,7 +52,7 @@ main {
 
 .contact p, .contact a {
   font-family: 'Montserrat', sans-serif;
-  font-size: 1.6rem;              /* [Adjusted] slightly reduced from 2rem */
+  font-size: 1.3rem;              /* [Adjusted] slightly reduced from 2rem */
   color: #ffffff;
   text-decoration: none;
   margin: 0.75rem 0;              /* [Optional] more balanced spacing */
