@@ -51,11 +51,11 @@ main {
 }
 
 .contact p, .contact a {
-  font-family: 'Montserrat', sans-serif; /* [NEW] consistent font */
-  font-size: 2rem;                        /* [UPDATED] double the size */
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.6rem;              /* [Adjusted] slightly reduced from 2rem */
   color: #ffffff;
   text-decoration: none;
-  margin: 1rem 0;
+  margin: 0.75rem 0;              /* [Optional] more balanced spacing */
 }
 
 .contact h2, .gallery h2 {
